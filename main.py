@@ -3,12 +3,6 @@ from names_dataset import NameDataset
 # Initialize the NameDataset
 nd = NameDataset()
 
-# Custom dictionary for additional names
-# custom_data = {
-#     'Nazam': 'Male',
-#     'Fazeelat': 'Female'
-# }
-
 # Function to classify gender based on name
 def classify_gender(name):
     # Check in custom data first
